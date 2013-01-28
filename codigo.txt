@@ -1,0 +1,15 @@
+//comentario 
+/*coment*/
+void main(){
+	int a=5;//comentario
+	int b = 6.1; /* comentario */
+	for(i=0;i<2;i++){
+		b*=2-a;
+		//Este for hace algo
+		if(b == 2 ||a>=1){
+			break;
+		}
+		char *c="este es un string";
+	}
+	fprintf(stdout, "%s\t%s\n",(*a).buffer,"Aritmetico o Apuntador");
+} 
